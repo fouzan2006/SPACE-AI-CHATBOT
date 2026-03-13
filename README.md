@@ -43,3 +43,59 @@ This project demonstrates how to build a **real-time AI assistant with modern fr
 ---
 
 # 📁 **Project Structure**
+space-ai-chatbot
+│
+├── public
+│ └── index.html
+│
+├── server.js
+├── package.json
+├── .env
+└── README.md
+
+---
+🔑 Environment Variables
+
+Create a .env file in the root directory:
+
+GROQ_API_KEY=your_groq_api_key_here
+
+You can generate a Groq API key here:
+
+https://console.groq.com
+
+▶️ Run the Server
+
+Start the Node.js server:
+
+node server.js
+
+Open in your browser:
+
+http://localhost:3000
+🌍 Deploy Publicly Using Cloudflare Tunnel
+
+Install cloudflared, then run:
+
+cloudflared tunnel --url http://localhost:3000
+
+You will receive a public URL like:
+
+https://random-name.trycloudflare.com
+
+Your chatbot will now be accessible from anywhere on the internet.
+
+🧠 Chat Memory System
+
+The chatbot maintains conversation context during a session using a JavaScript array.
+
+Example structure:
+
+let chatHistory = [
+  {
+    role: "system",
+    content: "You are SPACE AI..."
+  }
+];
+
+This allows the AI to remember previous messages in the conversation
