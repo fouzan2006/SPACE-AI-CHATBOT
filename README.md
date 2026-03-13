@@ -5,6 +5,8 @@ A **modern AI-powered chatbot web application** built using **Node.js, Express, 
 The chatbot supports **streaming responses, markdown rendering, chat memory, and public deployment via Cloudflare Tunnel**.
 
 This project demonstrates how to build a **real-time AI assistant with modern frontend UI and backend API integration.**
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9085efde-80c2-40ef-bb0f-e4a9078c7013" />
+
 
 ---
 
