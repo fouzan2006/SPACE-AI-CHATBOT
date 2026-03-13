@@ -1,13 +1,13 @@
-🚀 SPACE AI Chatbot
-
+**🚀 SPACE AI Chatbot
+**
 A modern AI-powered chatbot web application built using Node.js, Express, and Groq LLM API with a sleek Liquid Glass UI.
 
 The chatbot supports streaming responses, markdown rendering, chat memory, and public deployment via Cloudflare Tunnel.
 
 This project demonstrates how to build a real-time AI assistant with modern frontend UI and backend API integration.
 
-✨ Features
-
+**✨ Features
+**
 🤖 AI Chatbot powered by Groq LLM
 
 ⚡ Streaming responses for real-time typing effect
